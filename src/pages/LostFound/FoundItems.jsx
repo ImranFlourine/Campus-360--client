@@ -8,8 +8,8 @@ import ItemDetail from "@/components/lost-found/ItemDetail";
 import toast from "react-hot-toast";
 import axios from "axios";
 
-const URL = "http://localhost:8080";
-// const URL = "XYZ.com"
+// const URL = "http://localhost:8080";
+const URL = "https://campus-360-server.onrender.com";
 
 const FoundItems = () => {
   const [items, setItems] = useState([]);

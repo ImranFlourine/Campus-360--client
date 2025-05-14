@@ -21,8 +21,9 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "sonner";
 
-const URL = "http://localhost:8080";
-// const URL = "XYZ.com"
+// const URL = "http://localhost:8080";
+const URL = "https://campus-360-server.onrender.com";
+
 const MEDIA_API = `${URL}/api/v1/media`;
 
 const LectureTab = () => {

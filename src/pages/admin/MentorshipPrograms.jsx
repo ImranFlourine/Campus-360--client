@@ -4,8 +4,9 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 import { useTheme } from "../../components/ThemeProvider";
 
-const URL = "http://localhost:8080";
-// const URL = "XYZ.com"
+// const URL = "http://localhost:8080";
+const URL = "https://campus-360-server.onrender.com";
+
 const MENTORSHIP_URL = `${URL}/api/v1/mentorship`;
 
 const MentorshipPrograms = () => {

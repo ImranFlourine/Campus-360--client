@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-const URL = "http://localhost:8080";
-// const URL = "XYZ.com"
+// const URL = "http://localhost:8080";
+const URL = "https://campus-360-server.onrender.com";
 
 export default function Admin() {
   const [complaints, setComplaints] = useState([

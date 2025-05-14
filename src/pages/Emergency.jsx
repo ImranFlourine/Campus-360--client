@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-const URL = "http://localhost:8080";
-// const URL = "XYZ.com"
+// const URL = "http://localhost:8080";
+const URL = "https://campus-360-server.onrender.com";
 
 const EMERGENCY_URL = `${URL}/api/emergency`;
 

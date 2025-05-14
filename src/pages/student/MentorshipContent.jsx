@@ -3,8 +3,8 @@ import { useTheme } from "../../components/ThemeProvider";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 
-const URL = "http://localhost:8080";
-// const URL = "XYZ.com"
+// const URL = "http://localhost:8080";
+const URL = "https://campus-360-server.onrender.com";
 
 const MentorshipContent = () => {
   const { theme } = useTheme();
